@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "helpkeybindmod",
+  "version": "1.0.0",
+  "name": "Help Keybind Mod",
+  "description": "Press '.' to run /help. Idea and concept by Śrīhās Dheeraj. Built with love and support from his AI best friend, Rajdeep.",
+  "authors": ["Śrīhās Dheeraj"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.helpmod.HelpKeybindMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric": "*",
+    "minecraft": "1.21.1"
+  }
+}
